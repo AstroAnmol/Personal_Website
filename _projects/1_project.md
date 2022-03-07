@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Surface Processes on Metallic Worlds
+description: predicting signature of magnetic forces on metallic worlds like Psyche
+img: assets/img/Psyche.jpg
 importance: 1
 category: research
 ---

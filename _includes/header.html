@@ -44,7 +44,11 @@
                 </a>
               </li>
               {%- endif %}
-
+              <!-- Substack --> 
+              <li class="nav-item">
+                <a class="nav-link" href="https://blog.aerospacenerd.com/">blog
+                </a>
+              </li> 
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "title" -%}
               {%- for p in sorted_pages -%}
@@ -78,7 +82,11 @@
               {%- endif -%}
               {% endfor -%}
               {%- if site.enable_darkmode %}
-
+              <!-- CV --> 
+              <li class="nav-item">
+                <a class="nav-link" href="https://drive.google.com/file/d/1mjD_qdtenwXmWS0tzuc9agg6baImXAMr/view">cv
+                </a>
+              </li> 
               <!-- Toogle theme mode -->
               <div class = "toggle-container">
                 <a id = "light-toggle">
