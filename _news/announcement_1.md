@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-03-07 12:00:00-0400
+date: 2022-03-09 9:30:00-0400
 inline: true
 ---
 
-Attending LPSC 2022 in Houston, TX.
+Presented my work at <i>Lunar and Planetary Science Conference (2022) </i> during the <i>Near-Earth and Main-Belt Asteroids: Physical Characteristics and Surface Composition</i> session.

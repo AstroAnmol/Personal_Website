@@ -8,7 +8,7 @@ profile:
   align: right
   image: Profile_pic.jpg
   address: >
-    <p>PhD Student</p>
+    <p>PhD Candidate</p>
     <p>Aerospace Engineering</p>
     <p>University of Maryland</p>
     <p>College Park (MD)</p>
@@ -18,8 +18,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-
-Hello!!
 
 I am an engineer, blogger, and aspiring researcher. I am pursuing a Ph.D. in Aerospace Engineering - understanding planetary surfaces of new wor. Presently, I am a Graduate Research Assistant in Dr. Hartzell's Planetary Surfaces and Spacecraft Lab working on predicting surface morphology on metallic asteroids due to magnetic forces.
 
