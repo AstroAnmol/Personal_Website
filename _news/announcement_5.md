@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-03-14 9:30:00-0400
+date: 2024-01-16 9:30:00-0400
 inline: true
 ---
 
-Presented preliminary results of mass-wasting events of metallic particles in uniform magnetic field at the <i> Lunar and Planetary Science Conference (2024) </i>, Woodlands, Texas.
+Selected as a Future Faculty Fellow in the Clark School of Engineering, University of Maryland. 
