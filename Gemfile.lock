@@ -188,7 +188,6 @@ GEM
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.5.0)
     unicode_utils (1.4.0)
-    wdm (0.1.1)
     webrick (1.8.1)
 
 PLATFORMS
@@ -219,8 +218,7 @@ DEPENDENCIES
   jemoji
   mini_racer
   unicode_utils
-  wdm
   webrick
 
 BUNDLED WITH
-   2.5.15
+   2.5.16
