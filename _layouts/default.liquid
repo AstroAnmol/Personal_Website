@@ -12,6 +12,11 @@
       {% endif %}
       <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
+      {%- if page.redirect_to -%}
+        <script type="text/javascript">
+          window.open("{{ page.redirect_to }}/", "_blank", "noopener,noreferrer");
+        </script>
+      {%- endif -%}
     {% include head.liquid %}
   </head>
 

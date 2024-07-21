@@ -171,6 +171,10 @@ ul.task-list input[type="checkbox"] {
   .card-body {
     padding: 1.25rem 1.25rem 1.25rem 1.25rem;
   }
+  .badge {
+    color: var(--global-card-bg-color) !important;
+    background-color: var(--global-theme-color) !important;
+  }
 }
 
 // Citation
@@ -712,6 +716,7 @@ footer.sticky-bottom {
       }
 
       .author {
+        // font-size: 12px;
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
@@ -722,8 +727,10 @@ footer.sticky-bottom {
         }
 
         > em {
-          border-bottom: 1px solid;
+          // border-bottom: 1px solid;
           font-style: normal;
+          color: var(--global-theme-color);
+          font-weight: bold;
         }
 
         > span.more-authors {

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-03-09 9:30:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Presented my work at <i>Lunar and Planetary Science Conference (2022) </i> during the <i>Near-Earth and Main-Belt Asteroids: Physical Characteristics and Surface Composition</i> session.

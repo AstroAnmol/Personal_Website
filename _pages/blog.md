@@ -4,19 +4,20 @@ permalink: /blog/
 title: blog
 nav: true
 nav_order: 1
-pagination:
-  enabled: true
-  collection: posts
-  permalink: /page/:num/
-  per_page: 5
-  sort_field: date
-  sort_reverse: true
-  trail:
-    before: 1 # The number of links before the current page
-    after: 3 # The number of links after the current page
+redirect_to: https://blog.aerospacenerd.com/
+# pagination:
+#   enabled: true
+#   collection: posts
+#   permalink: /page/:num/
+#   per_page: 5
+#   sort_field: date
+#   sort_reverse: true
+#   trail:
+#     before: 1 # The number of links before the current page
+#     after: 3 # The number of links after the current page
 ---
 
-<div class="post">
+<!-- <div class="post">
 
 {% assign blog_name_size = site.blog_name | size %}
 {% assign blog_description_size = site.blog_description | size %}
@@ -27,9 +28,9 @@ pagination:
     <h1>{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
   </div>
-  {% endif %}
+  {% endif %} -->
 
-{% if site.display_tags or site.display_categories %}
+<!-- {% if site.display_tags or site.display_categories %}
 
   <div class="tag-category-list">
     <ul class="p-0 m-0">
@@ -193,4 +194,4 @@ pagination:
 {% include pagination.liquid %}
 {% endif %}
 
-</div>
+</div> -->
