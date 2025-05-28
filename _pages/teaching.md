@@ -14,6 +14,47 @@ nav_order: 6
 <div class="card-body">
 <div class="float-right">
     <span class="badge" style="min-width: 75px"> 
+        Spring 2025
+    </span>
+    <p class="location">
+        <i class="fa-solid fa-location-dot iconlocation"></i>
+        UMD
+    </p>
+    <!-- <i class="fa-solid fa-thumbtack fa-xs"></i> -->
+    </div>
+
+<div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+    <h5 class="title font-weight-bold ml-1 ml-md-4" style="color: var(--global-theme-color)">
+            Space Flight Dynamics | ENAE 404
+    </h5>
+    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
+        Undergraduate level course to introduce orbit mechanics, taught by Brent Barbee
+    </h6>
+    <ul class="items">
+        <li>
+            <span class="item">Guest lectures on Gravity Assists, Gravity Gradient Torques and Complete Material Reviews.</span>
+        </li>
+        <li>
+            <span class="item">Assisted in assignment correction and maintaining the marksheets for 100+ students.</span>
+        </li>
+        <li>
+            <span class="item">Hosted weekly office hours to clear doubts pertaining to topics such as Kepler elements, Maneuvers, and Programming.</span>
+        </li>
+    </ul>
+</div>             
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col mb-4">
+<div class="card hoverable">
+<div class="row g-0">
+<div class="col-md-12">
+<div class="card-body">
+<div class="float-right">
+    <span class="badge" style="min-width: 75px"> 
         Fall 2024
     </span>
     <p class="location">
@@ -28,9 +69,12 @@ nav_order: 6
             Spacecraft Navigation and Guidance | ENAE 441
     </h5>
     <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
-        Graduate level course to introduce spaceflight navigation, taught by Dr. John Martin
+        Undergraduate level course to introduce spaceflight navigation, taught by Dr. John Martin
     </h6>
     <ul class="items">
+        <li>
+            <span class="item">Helped to design assignment and exam questions.</span>
+        </li>
         <li>
             <span class="item">Assisted in assignment correction and maintaining the marksheets for 80+ students.</span>
         </li>
