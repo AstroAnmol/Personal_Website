@@ -21,4 +21,4 @@ social: true # includes social icons at the bottom of the page
 
 I am an engineer, blogger, and aspiring researcher. I am pursuing a Ph.D. in Aerospace Engineering - understanding planetary surfaces of new worlds. Presently, I am a Graduate Research Assistant in Dr. Hartzell's <a href="http://hartzell.umd.edu/"> Planetary Surfaces and Spacecraft Lab </a> working on predicting surface morphology on metallic asteroids due to magnetic forces.
 
-I like reading fiction, watching twitch streams, and writing space-related blogs in my free time. Occasionally, you can find me playing board games or light games on my switch. If I get out of the house, I am visiting a friend or a museum (being in the DC area helps :D). 
+I like reading fiction, watching Twitch streams, and writing space-related blogs in my free time. Occasionally, you can find me playing board games or light games on my Switch. If I get out of the house, I am visiting a friend or a museum (being in the DC area helps :D). 

@@ -155,7 +155,7 @@ nav_order: 6
             <span class="item">Assisted in assignment correction and maintaining the marksheet for 35+ students.</span>
         </li>
         <li>
-            <span class="item">Assisted in course project to simulate different flows by writing a Navier-Stokes solver in MATLAB.</span>
+            <span class="item">Assisted in the course project to simulate different flows by writing a Navier-Stokes solver in MATLAB.</span>
         </li>
     </ul>
 </div>             
@@ -236,7 +236,7 @@ nav_order: 6
             <span class="item">Structured the wiki as the assistant project manager of the IIT Bombay Student Satellite Program.</span>
         </li>
         <li>
-            <span class="item">Contributed to various articles within Mechanical Subsystem section.</span>
+            <span class="item">Contributed to various articles within the Mechanical Subsystem section.</span>
         </li>
     </ul>
 </div>             
