@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+description: Anecdotes of an Aerospace Nerd
 permalink: /blog/
 title: blog
 nav: true
@@ -16,6 +17,22 @@ redirect_to: https://blog.aerospacenerd.com/
 #     before: 1 # The number of links before the current page
 #     after: 3 # The number of links after the current page
 ---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+      <a href="https://blog.aerospacenerd.com/" target="_blank">
+        {% include figure.liquid loading="eager" path="/assets/img/blog_preview.png" title="Anecdotes of Aerospace Nerd" class="img-fluid rounded z-depth-1" %}
+      </a>
+    </div>
+</div>
+
+<!-- <div class="row justify-content-center">
+  <div class="col-12 text-center">
+    <a href="https://blog.aerospacenerd.com/" target="_blank">
+      <img src="/assets/img/blog_preview.jpg">
+    </a>
+  </div>
+</div> -->
 
 <!-- <div class="post">
 
