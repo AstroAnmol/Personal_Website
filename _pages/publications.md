@@ -17,9 +17,9 @@ nav_order: 2
 
 <h3> journal articles </h3>
 
-  {% bibliography -f papers -q @article* %}
+  {% bibliography -f papers -q @article[author~=Sikka]* %}
 
 <h3> conference proceedings </h3>
-  {% bibliography -f papers -q @inproceedings* %}
+  {% bibliography -f papers -q @inproceedings[author~=Sikka]* %}
 
 </div>

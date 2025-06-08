@@ -1,81 +1,37 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Avalanching on airless metallic bodies with remnant magnetic field
+description: Doctoral Thesis
+img: assets/img/project_preview/mag-avalanching.png
 importance: 1
-category: work
-related_publications: true
+category: ["planetary science"] 
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+NASA's OSIRIS-REx mission collected Asteroid Bennu's regolith using the TAGSAM - Touch-and-Go Sample Acquisition Mechanism.
+The arm was supposed to touch and collect samples, but unexpectedly, it kept penetrating into the surface.
+The spacecraft fired thrusters in order to disengage with the asteroid, or it would have crashed on the surface.
+This unexpected behavior was caused by the near-zero cohesion between the asteroid regolith.
+The whole ordeal pointed to our limited understanding of regolith dynamics in micro-gravity environments.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+While we have been studying regolith processes for traditional (stony) asteroids, NASA is endeavouring to explore a new world.
+Psyche is a metallic asteroid in the main belt between Mars and Jupiter.
+It is likely a planetesimal - a building block of planets left over from the early solar system.
+Researchers think that it is a striped core, just like one inside our Earth.
+Therefore, we expect Psyche to have a remnant magnetic field.
+Magnetic field could lead to a new cohesion between regolith particles - **Magnetic cohesion**.
+I am working to model this magnetic force and understand its effects on bulk regolith properties.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+While working through the literature on existing magnetic force models, I realized that most magnetic cohesion studies considered less accurate models based on either Fixed Dipole or Mutual Dipole.
+\cite{keaveny2008} developed a more accurate model, “*Inclusion model*,” that includes multipoles along with dipoles.
+First, I used this model to develop a new empirical formula to calculate the force between two paramagnetic particles placed in a uniform magnetic field.
+We can use this empirical formula to define a more accurate *magnetic bond number*: $B_{mag}=\frac{F_{mag}}{F_{grav}}$.
+The bond number helps us compare different forces against surface gravity to understand which force could overpower gravity; making it a significant to research and study.
+This work resulted in my first journal publication in the *Planetary Science Journal*.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Since then, I have implemented and validated the “*Inclusion Model*” in an open-source Discrete Element Model (DEM) software: LIGGGHTS.
+Currently, I am working on validating the model against  experimental work.
+Results to follow soon. Meanwhile here are pretty videos :D
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## References
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+{% bibliography --cited %}

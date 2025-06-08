@@ -2,12 +2,18 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
-nav: false
+description: A growing collection of my projects.
+nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [planetary science, smallsat, mission formulation, GNC]
 horizontal: false
 ---
+
+<div class="category-buttons">
+  {% for category in page.display_categories %}
+    <a class="btn category-btn" href=".#{{ category }}">{{ category }}</a>
+  {% endfor %}
+</div>
 
 <!-- pages/projects.md -->
 <div class="projects">
@@ -17,7 +23,8 @@ horizontal: false
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
+  {% assign categorized_projects = site.projects | where_exp: "project", "project.category contains category" %}
+  <!-- {% assign categorized_projects = site.projects | where: "category", category %} -->
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
