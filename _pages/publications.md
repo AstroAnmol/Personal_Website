@@ -19,6 +19,10 @@ nav_order: 2
 
   {% bibliography -f papers -q @article[author~=Sikka]* %}
 
+<h3> white papers </h3>
+
+  {% bibliography -f papers -q @techreport[author~=Sikka]* %}
+
 <h3> conference proceedings </h3>
   {% bibliography -f papers -q @inproceedings[author~=Sikka]* %}
 
