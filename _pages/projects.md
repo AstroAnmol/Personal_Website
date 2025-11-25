@@ -3,9 +3,9 @@ layout: page
 title: projects
 permalink: /projects/
 description: A growing collection of my projects.
-nav: false
+nav: true
 nav_order: 3
-display_categories: [planetary science, smallsat, mission formulation, GNC]
+display_categories: [planetary science, smallsat, mission formulation]
 horizontal: false
 ---
 
