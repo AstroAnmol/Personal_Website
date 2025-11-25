@@ -1327,3 +1327,16 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+.alert-custom {
+  background-color: var(--global-code-bg-color); /* custom background */
+  color: var(--global-theme-color);               /* text color */
+}
+.alert-custom .btn-outline-dark {
+  color: #fff;
+  border-color: rgba(255,255,255,0.25);
+}
+
+.publications h3{
+  color: var(--global-theme-color)
+}
