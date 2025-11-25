@@ -1,0 +1,13 @@
+{% comment %} Renders when page.alert or site.alert is set in front matter {% endcomment %}
+{% if page.alert or site.alert %}
+<div class="container">
+  <div class="alert {{ page.alert_class | default: site.alert_class | default: 'alert-custom' }} alert-dismissible fade show my-3" role="alert">
+    {{ page.alert | default: site.alert }}
+    {% assign link_text = page.alert_link_text | default: site.alert_link_text %}
+    {% assign link_url  = page.alert_link_url  | default: site.alert_link_url %}
+    {% if link_text and link_url %}
+      <a href="{{ link_url }}" class="btn btn-sm btn-outline-dark ms-3" target="_blank" rel="noopener">{{ link_text }}</a>
+    {% endif %}
+  </div>
+</div>
+{% endif %}
