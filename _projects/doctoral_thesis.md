@@ -44,8 +44,9 @@ The bond number helps us compare different forces against surface gravity to und
 This work resulted in my first journal publication in the *Planetary Science Journal*: {% cite sikka_development_2023 %}.
 
 Since then, I have implemented and validated the **Inclusion Model** in an open-source Discrete Element Model (DEM) software: LIGGGHTS.
-Currently, I am working on validating the model against experimental work of {% cite sunday2024 %}.
-Results to follow soon. Meanwhile here are some pretty videos :D
+We validated the model against the experimental results of {% cite sunday2024 %}, making this the first experimentally validated magnetic force model for DEM.
+The pre-print of our article for this model can be found on {% cite sikka2026 %}.
+Results for Psyche to follow soon. Meanwhile here are some pretty videos :D
 
 <div class="row mt-3" style="overflow-x:auto;white-space:nowrap;">
     <div class="col-sm-4 mt-3 mt-md-0" style="display:inline-block;white-space:normal;">
