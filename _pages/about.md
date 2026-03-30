@@ -9,15 +9,15 @@ profile:
   image: Profile_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>PhD Candidate</p>
-    <p>Aerospace Engineering</p>
+
+    <p>PhD, Aerospace Engineering</p>
     <p>University of Maryland</p>
     <p>College Park (MD)</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-alert: "Looking for Post-doctoral positions starting in Spring-Summer 2026"
+alert: "Looking for Post-doctoral positions starting in Summer-Fall 2026"
 ---
 
 I am an engineer, blogger, and aspiring researcher. I am pursuing a Ph.D. in Aerospace Engineering - understanding planetary surfaces of new worlds. Presently, I am a Graduate Research Assistant in Dr. Hartzell's <a href="http://hartzell.umd.edu/"> Planetary Surfaces and Spacecraft Lab </a> working on [predicting surface morphology](https://aerospacenerd.com/projects/doctoral_thesis) on metallic asteroids due to magnetic forces.
