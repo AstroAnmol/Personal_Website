@@ -4,7 +4,7 @@ title: Polymele Occultation Observation
 description: Lucy Occultation Campaign by SWRI
 img: assets/img/project_preview/polymele_occult.jpg
 importance: 4
-category: ["planetary science"]
+category: ["Planetary Regolith Mechanics"]
 ---
 
 NASA's <a href = "https://lucy.swri.edu/">Lucy mission</a> is the first mission to visit Jupiter Trojan asteroids.

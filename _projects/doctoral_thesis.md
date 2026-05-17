@@ -4,7 +4,7 @@ title: Avalanching on airless metallic bodies with remnant magnetic field
 description: Doctoral Thesis
 img: assets/img/project_preview/mag-avalanching.png
 importance: 1
-category: ["planetary science"] 
+category: ["Planetary Regolith Mechanics"] 
 related_publications: true
 ---
 

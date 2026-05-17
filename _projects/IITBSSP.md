@@ -4,7 +4,7 @@ title: IIT Bombay Student Satellite Program
 description: A student-run initiative to convert the institute to a Center of Excellence in Satellite and Space Technology
 img: assets/img/IITBSSP/logo.jpeg
 importance: 1
-category: ["smallsat", "mission formulation"]
+category: ["Small Sat Engineering & Operations", "Mission Formulation"]
 related_publications: false
 ---
 

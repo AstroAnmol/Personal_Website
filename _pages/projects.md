@@ -1,12 +1,20 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of my projects.
+title: Research
+permalink: /research/
+description: Research, mission design, and engineering projects.
 nav: true
 nav_order: 3
-display_categories: [planetary science, smallsat, mission formulation]
+display_categories: ["Planetary Regolith Mechanics", "Small Sat Engineering & Operations", "Mission Formulation", "Other Research"]
 horizontal: false
+---
+
+## Research Overview
+
+My research centers on **understanding the behavior of granular materials on low-gravity celestial bodies**, particularly asteroids with remnant magnetic fields. Using **Discrete Element Method (DEM) simulations** and computational frameworks like **LIGGGHTS**, I investigate how magnetic cohesion influences regolith dynamics—a critical factor for safe and efficient exploration of metallic asteroids like NASA's Psyche mission.
+
+This work sits at the intersection of computational modeling, experimental validation, and planetary science, with direct applications to mission planning and spacecraft operations on asteroid surfaces.
+
 ---
 
 <div class="category-buttons">

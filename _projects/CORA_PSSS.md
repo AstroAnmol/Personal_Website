@@ -4,7 +4,7 @@ title: "CORA: Ceres Ocean Reconnaissance and Analysis"
 description: JPL's Planetary Science Summer School
 img: assets/img/project_preview/CORA-logo.png
 importance: 2
-category: ["planetary science", "mission formulation"]
+category: ["Mission Formulation"]
 # giscus_comments: true
 ---
 

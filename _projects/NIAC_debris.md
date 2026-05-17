@@ -4,7 +4,7 @@ title: SmallSat Configuration Design To Map Sub-cm Orbital Debris in LEO via Pla
 description: NIAC Phase II Grant
 img: assets/img/project_preview/niac25ph2-hartzell.webp
 importance: 2
-category: [smallsat]
+category: ["Small Sat Engineering & Operations"]
 giscus_comments: false
 ---
 
