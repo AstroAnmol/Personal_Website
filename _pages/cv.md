@@ -2,7 +2,7 @@
 layout: page
 description: 
 permalink: /cv/
-title: curriculum vitae
+title: Curriculum Vitae
 nav: true
 nav_order: 5
 # cv_pdf: https://drive.google.com/file/d/1mjD_qdtenwXmWS0tzuc9agg6baImXAMr/view?usp=sharing

@@ -2,9 +2,8 @@
 layout: page
 description: Anecdotes of an Aerospace Nerd
 permalink: /blog/
-title: blog
-nav: true
-nav_order: 1
+title: Blog
+nav: false
 redirect_to: https://blog.aerospacenerd.com/
 # pagination:
 #   enabled: true
