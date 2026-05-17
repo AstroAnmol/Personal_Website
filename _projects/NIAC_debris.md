@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SmallSat Configuration Design To Map Sub-cm Orbital Debris in LEO via Plasma Soliton Detection 
-description: NIAC Phase II Grant
+description: "Graduate Researcher | NASA NIAC Phase II"
 img: assets/img/project_preview/niac25ph2-hartzell.webp
 importance: 2
 category: ["Small Sat Engineering & Operations"]

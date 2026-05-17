@@ -5,5 +5,5 @@ description: A comprehensive starting point for satellite and space technology, 
 img: assets/img/project_preview/pratham_logo.png
 redirect: https://www.aero.iitb.ac.in/satelliteWiki/index.php/Satellite_101
 importance: 3
-category: ["Other Research"]
+category: ["Broader Impacts & Outreach"]
 ---

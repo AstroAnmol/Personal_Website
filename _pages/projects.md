@@ -5,7 +5,7 @@ permalink: /research/
 description: Research, mission design, and engineering projects.
 nav: true
 nav_order: 3
-display_categories: ["Planetary Regolith Mechanics", "Small Sat Engineering & Operations", "Mission Formulation", "Other Research"]
+display_categories: ["Planetary Regolith Mechanics", "Small Sat Engineering & Operations", "Mission Formulation", "Broader Impacts & Outreach"]
 horizontal: false
 ---
 

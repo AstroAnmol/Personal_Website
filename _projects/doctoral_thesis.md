@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Avalanching on airless metallic bodies with remnant magnetic field
-description: Doctoral Thesis
+title: Role of Magnetic Force in Avalanching on Metallic Asteroids
+description: "PhD Dissertation | University of Maryland"
 img: assets/img/project_preview/mag-avalanching.png
 importance: 1
 category: ["Planetary Regolith Mechanics"] 

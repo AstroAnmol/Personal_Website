@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "CORA: Ceres Ocean Reconnaissance and Analysis"
-description: JPL's Planetary Science Summer School
+description: "Mission Cost Engineer | NASA JPL Planetary Science Summer School"
 img: assets/img/project_preview/CORA-logo.png
 importance: 2
 category: ["Mission Formulation"]
