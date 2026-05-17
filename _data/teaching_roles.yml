@@ -1,0 +1,36 @@
+# Teaching roles and items data
+# This file contains all the teaching card content used in _pages/teaching.md
+
+- items:
+    - "Delivered guest lectures on specialized topics including Gravity Assists, Gravity Gradient Torques, and comprehensive material reviews."
+    - "Graded assignments and maintained marksheets for 100+ undergraduate students."
+    - "<strong>Mentorship:</strong> Hosted weekly office hours providing individualized support on topics such as Kepler elements, orbital maneuvers, and programming, helping students develop both technical proficiency and confidence."
+
+- items:
+    - "Collaborated in designing assignment and exam questions to assess student learning outcomes."
+    - "Graded assignments and maintained marksheets for 80+ undergraduate students."
+    - "<strong>Mentorship:</strong> Hosted weekly office hours providing guidance on complex topics including orbital mechanics, state estimation, probability theory, and Kalman filtering techniques."
+
+- items:
+    - "Graded assignments and maintained marksheets for 150+ graduate and advanced undergraduate students."
+    - "<strong>Mentorship:</strong> Provided office hour support addressing complex topics including rocket equations, two-body problem dynamics, and orbital maneuver planning."
+
+- items:
+    - "Graded assignments and maintained marksheets for 35+ graduate students."
+    - "Supported course project by assisting students in developing a Navier-Stokes flow solver in MATLAB, providing guidance on numerical methods and code development."
+
+- items:
+    - "<strong>Leadership:</strong> Organized and led the annual workshop as Project Manager, coordinating logistics for students from across India."
+    - "Delivered lectures on Systems Engineering Principles and team-building practices to equip students with both technical and professional skills."
+    - "Created a collaborative learning environment where students developed hands-on skills in amateur radio ground station design for satellite tracking."
+
+- items:
+    - "Contributed as an author and maintainer to create accessible content for students and engineers worldwide."
+    - "Covers core topics in satellite design, launch, operations, and mission planning."
+    - "Demonstrates commitment to science communication and democratizing access to aerospace knowledge."
+
+- items:
+    - "<strong>Team Leadership & Mentorship:</strong> Led integration & testing phases, oversaw deputy systems engineers, and mentored team members through technical and professional challenges."
+    - "<strong>Technical Oversight:</strong> Served as principal liaison between engineering and project management, ensuring technical excellence while maintaining project timelines and budgets."
+    - "<strong>Mission Formulation:</strong> Designed and proposed new mission concepts to sustain the program's continued operation and impact."
+    - "<strong>Knowledge Transfer:</strong> Established systems engineering best practices, quality assurance procedures, and documentation standards to ensure institutional continuity."

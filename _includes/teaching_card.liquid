@@ -1,0 +1,56 @@
+<div class="col mb-4">
+<div class="card hoverable">
+<div class="row g-0">
+<div class="col-md-12">
+<div class="card-body">
+<div class="float-right">
+    {% if include.badge %}
+    <span class="badge" style="min-width: 75px"> 
+        {{ include.badge }}
+    </span>
+    {% endif %}
+    {% if include.location %}
+    <p class="location">
+        <i class="fa-solid fa-location-dot iconlocation"></i>
+        {{ include.location }}
+    </p>
+    {% elsif include.icon %}
+    <p class="location">
+        <i class="{{ include.icon }} iconlocation"></i>
+        {{ include.icon_label }}
+    </p>
+    {% endif %}
+</div>
+
+<div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+    <h5 class="title font-weight-bold ml-1 ml-md-4" style="color: var(--global-theme-color);">
+        {% if include.link %}
+            <a href="{{ include.link }}" target="_blank" style="color: var(--global-theme-color);">{{ include.title }}</a>
+        {% else %}
+            {{ include.title }}
+        {% endif %}
+    </h5>
+    <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
+        {{ include.subtitle }}
+    </h6>
+    
+    {% assign card_id = "card-" | append: include.card_index %}
+    <button class="btn btn-sm btn-outline-secondary mt-2 ml-1 ml-md-4" type="button" data-toggle="collapse" data-target="#{{ card_id }}" aria-expanded="false" aria-controls="{{ card_id }}">
+        <i class="fa-solid fa-chevron-down"></i> Details
+    </button>
+    
+    <div class="collapse mt-3" id="{{ card_id }}">
+        <ul class="items">
+            {% for item in include.items %}
+            <li>
+                <span class="item">{{ item }}</span>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
