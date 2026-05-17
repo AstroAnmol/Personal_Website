@@ -30,9 +30,13 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// Custom theme colors
+$space-nerd-teal: #05A6A6 !default;
+$space-nerd-teal-dark: #047373 !default;
+
 // Theme colors
 
-$code-bg-color-light: rgba($orange-color, 0.05);
+$code-bg-color-light: rgba($space-nerd-teal, 0.05);
 $code-bg-color-dark: #37302c !default;
 
 // Font awesome location

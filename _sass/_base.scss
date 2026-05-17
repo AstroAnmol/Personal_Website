@@ -19,6 +19,10 @@ strong {
   color: var(--global-text-color);
 }
 
+h1 {
+  color: var(--global-theme-color);
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -1329,8 +1333,9 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 .alert-custom {
-  background-color: var(--global-code-bg-color); /* custom background */
-  color: var(--global-theme-color);               /* text color */
+  background-color: rgba(var(--global-theme-color), 0.1);
+  color: var(--global-theme-color);
+  border: 1px solid var(--global-theme-color);
 }
 .alert-custom .btn-outline-dark {
   color: #fff;
